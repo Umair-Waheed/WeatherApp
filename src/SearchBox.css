@@ -1,0 +1,60 @@
+.SearchBox{
+  text-align: center;
+  margin-bottom: 25px;
+}
+.SearchBox input{
+  background-color: #00000036;
+  border: 1px solid rgb(255, 255, 255);
+  padding: 10px 20px;
+  outline: none;
+  border-radius: 5px;
+  color: white;
+  font-size: 20px;
+  margin-bottom: 10px;
+  
+}
+
+.SearchBox input::placeholder{
+  color:rgb(243, 243, 243);
+}
+
+
+.SearchBox button{
+    border-radius: 5px;
+    border:none; 
+    padding: 10px 20px;
+    font-size: 1em;
+    color: rgb(252, 252, 252);
+    font-weight: 500;
+    font-family: inherit;
+    background-color: #53ecec;
+    cursor: pointer;
+}
+.SearchBox button:hover{
+color: white;
+background-color: rgba(5, 184, 197, 0.856);
+
+}
+.error-text{
+  color: rgb(0, 0, 0);
+  font-weight: 600;
+}
+
+@media (max-width:1100px) {
+ 
+  .SearchBox{
+    text-align: center;
+    margin-bottom: 10px;
+  } 
+  .SearchBox input{
+   
+    padding: 5px 10px;
+    font-size: 12px;
+    
+  } 
+  .SearchBox button{
+    padding: 5px 10px;
+    font-size: 13px;  
+}
+
+}

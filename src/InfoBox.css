@@ -1,0 +1,39 @@
+.InfoBox{
+    text-align: center;
+}
+
+.cardContainer{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    
+}
+.card-content{
+    background-color: rgba(5, 184, 197, 0.685);
+    color: white;
+    
+}
+
+.card-content:hover{
+    background-color: rgba(5, 184, 197, 0.616);
+
+}
+@media (max-width:1100px) {
+
+    .card-container{
+        width: 220px;
+    }
+    
+    .card-container .card-media{
+        height: 100px;
+        
+    }
+    .card-content{
+        wid
+    }
+    .card-content p{
+        font-size: 12px;
+        
+    }
+    
+}
